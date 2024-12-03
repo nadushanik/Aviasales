@@ -1,0 +1,12 @@
+.header {
+    display: block;
+    margin: auto;
+    grid-area: header;
+}
+.logo {
+    margin-left: auto;
+    object-fit: cover;
+    width: calc((100vw - 320px)/2);
+    max-width: 99px;
+    min-width: 60px;
+  }

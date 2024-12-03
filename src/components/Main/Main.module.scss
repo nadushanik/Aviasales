@@ -1,0 +1,52 @@
+.main {
+  grid-area: main;
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 5vh auto;
+  max-width: 500px;
+}
+
+@media (max-width: 425px) {
+  .main {
+    grid-template-rows: 4vh auto;
+    gap: 12px;
+  }
+}
+.tabs {
+    display: grid;
+    grid-auto-flow: column;
+    box-shadow: 0px 0px 8px 4px rgba(150, 155, 159, 0.2);
+    margin: 0 5px 0 0;
+    max-height: 50px;
+    max-width: 502px;
+    font-size: 12px;
+  }
+  
+  .tab {
+    display: flex;
+    border: 1px solid #DFE5EC;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .tab:first-child {
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .tab:last-child {
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .tab:hover  {
+    cursor: pointer;
+    background: #2196F3;
+    border-color: #2196F3;
+    color: white;
+  }
+  
+  .select{
+    background: #2196F3;
+    border-color: #2196F3;
+    color: white;
+  }
