@@ -1,0 +1,15 @@
+*
+.app {
+    display: grid;
+    gap: 20px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3F7FA;
+    min-height: 100vh;
+    grid-template-areas:
+    "header header"
+    "sidebar main";
+    grid-template-rows: 140px 1fr;
+    grid-template-columns: 0.5fr 1fr;
+   }

@@ -1,0 +1,57 @@
+
+.ticket {
+    display: grid;
+    gap: 7px;
+    background-color: white;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 4px rgba(150, 155, 159, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .ticket{
+      padding: 10px;
+    }
+  }
+  
+  .price_logo {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    margin-bottom: 8px;
+  }
+  
+  .price {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2196F3;
+  }
+  
+  @media (max-width: 767px){
+    .price{
+      font-size: calc(13px + 12 * ((100vw - 320px)/960));
+    }
+  }
+  
+  
+  .logo {
+    margin-left: auto;
+    object-fit: cover;
+    width: calc((100vw - 320px)/2);
+    max-width: 99px;
+    min-width: 60px;
+  }
+  
+  .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .text{
+    margin-left: 2px;
+  }
+  .gray_text {
+    color: #A0B0B9;
+    margin-bottom: 5px;
+  }
